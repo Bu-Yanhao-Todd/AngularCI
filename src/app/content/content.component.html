@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<span style = "width: 24%">
+	<label id = "lblCINId" class="clsLabel">CIN</label>
+</span>
+
+<span style = "width: 24%">
+	<select (change) ="loadContent($event.target.value)">
+		<option value="123">123</option>
+		<option value="124">124</option>
+	</select>
+</span>
+
+<br>
+
+<span style = "width: 24%">
+	<label id = "lblFirstNameId" class="clsLabel">First Name</label>
+</span>
+
+<span style = "width: 24%">
+	<input [(ngModel)] = "firstName"  type="text" name="txtFirstName">
+</span>
+
+
+
+<span style = "width: 24%">
+	<label id = "lblLastNameId" class="clsLabel">Last Name</label>
+</span>
+
+<span style = "width: 24%">
+	<input [(ngModel)] = "lastName" type="text" name="txtLastName">
+</span>
+
+
+
